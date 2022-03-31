@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9eeddeea24.js" crossorigin="anonymous"></script>
+    <title>Bakery | Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9eeddeea24.js" crossorigin="anonymous"></script>
+    <!-- ANIMACIONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <link/>
+</head>
+<!--Comienza el body-->
+<body>
+<!-- Comienza el header -->
+    <header class="nav animate__animated animate__fadeInDown">
+        <div class="nav__menu"><i class="fa-solid fa-bars"></i></div>
+
+        <ul class="nav__ul">
+            <!-- <img class="nav__img" src="../Assets/imagenes/download.png" alt="logo"> -->
+            <li class="nav__li"><a href="../index.html">Inicio</a></li>
+            <li class="nav__li"><a href="../pages/nosotros.html">Nosotros</a></li>
+            <li class="nav__li"><a href="../pages/recetas.html">Recetas</a></li>
+            <li class="nav__li"><a href="../pages/tienda.html">Tienda</a></li>
+            <li class="nav__li"><a href="#">Contacto</a></li>
+        </ul>
+    </header>  
+<!-- Finaliza el header -->
+<!-- Comienza main -->
+    <section class="maincontacto">
+        <div class="formsection">
+            <h1 class="formsection__h1">Contacto.</h1>
+            <form class="form" action="procesar.php" method="post">
+
+                <fieldset class="form__fieldset">
+                    <p>
+                        <label class="form__label" for="nombre"> Nombre: </label>
+                        <input class="form__input" type="text" name="nombre" placeholder="Ingrese su nombre">
+                    </p>
+            
+                    <p>
+                        <label class="form__label" for="apellidos"> Apellido:</label>
+                        <input class="form__input" type="text" name="Apellido" placeholder="Ingrese su apellido">
+                    </p>
+                
+                    <p>
+                        <label class="form__label" for="email"> Email::</label>
+                        <input class="form__input" type="email" name="email"  placeholder="Ingrese su Email">
+                    </p>
+
+                    <p>
+                        <textarea class="form__input" name="cometario" id="" cols="50" rows="8" placeholder="Dejanos tus comentarios"></textarea>
+                    </p> <!--No se si colocarle la class label o una nueva especifica para el textarea-->
+
+                    <input class="form__button" type="reset" value="Borrar">
+                    <input class="form__button" type="submit" value="Enviar">
+                    <p><input class="form__button--1" type="button" value="Sin acciones"></p>
+
+                </fieldset>
+        </div>
+
+        <div class="mediacontacto">
+            <h2 class="mediacontacto__h2">Redes.</h2>
+            <ul class="medialistcontacto">
+                <lm class="medialistcontacto__li"><a href="https://www.instagram.com/" target="_blanck"><i class="fa-brands fa-instagram" style="color:white"></i></a></lm>
+                <li class="medialistcontacto__li"><a href="https://www.facebook.com/" target="_blanck"><i class="fa-brands fa-facebook" style="color: white;"></i></a></li>
+                <li class="medialistcontacto__li"><a href="https://twitter.com/home" target="_blanck"><i class="fa-brands fa-twitter" style="color: white;"></i></a></li>
+            </ul>
+        </div>
+
+    </section>
+<!-- Finaliza main -->
+<!-- Comienza footer -->
+    <footer class="footer">
+        <h5 class="footer__derechos">Todos los derechos reservados @2022</h5>
+        <ul class="footer__ul">
+            <li class="footer__li"><a href="../index.html">Inicio</a></li>
+            <li class="footer__li"><a href="../pages/tienda.html">Tienda</a></li>
+            <li class="footer__li"><a href="../pages/nosotros.html">Sobre nosotros</a></li>
+            <li class="footer__li"><a href="../pages/recetas.html">Recetas</a></li>
+            <li class="footer__li"><a href="#">Contacto</a></li>
+        </ul>
+    </footer>
+<!-- Finaliza footer -->
+</body>
+<!-- Finaliza body -->
+</html>
