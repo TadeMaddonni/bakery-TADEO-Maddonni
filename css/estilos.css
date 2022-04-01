@@ -107,6 +107,7 @@ body{
 
 /* Comienza Main */
 .main{
+    margin-top: 20px;
     background-size: cover;
     height: max-content;
     display: grid;
