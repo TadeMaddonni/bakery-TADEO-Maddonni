@@ -6,6 +6,7 @@
 html{
     background-image: url(../Assets/imagenes/fonditorosa.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 body{
     width: 100%;
@@ -143,6 +144,10 @@ body{
     font-size: 60px;
     font-weight: 300;
     font-style: normal;
+}
+
+.main__h1 span{
+    font-weight: 600;
 }
 .main__h2{
     font-family: 'Montserrat', sans-serif;
@@ -499,7 +504,8 @@ body{
     font-weight: 500;
     color:white;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
+
 }
 
 .maintienda__precio{
