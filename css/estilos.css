@@ -616,19 +616,18 @@ body{
     border-radius: 4px;
     border: none;
     margin: 5px;
-    background-color:#EBC0D4;
-    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(216,182,196,1) 0%, rgba(246,240,242,1) 90% ); */
+    /* background-color:#EBC0D4; */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(235,192,212,1) 30.8%, rgb(238, 181, 229) 62.7% );
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
 .form__button:hover{
-    /* background-color: black; */
     border: white;
     color: white;
     transform: scale(1.1);
     transition: .3s;
-    /* transform: translate(0px, -9px); */
+    cursor: pointer;
 }
 
 .form__button--1{
