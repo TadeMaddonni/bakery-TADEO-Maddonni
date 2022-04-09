@@ -1,0 +1,39 @@
+.navbar{
+    width: 100%;
+}
+
+.navbar-expand-lg{
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+
+
+.nav-link{
+    color: white !important;
+    font-size: 16px;
+}
+
+
+.nav-item{
+    margin-right: 35px;
+}
+.nav-link:hover{
+    color: black !important;
+    text-decoration: underline;
+    transform: translateX(5px);
+    transition: .4s;
+}
+
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.375);
+    border: none;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.467);
+}
