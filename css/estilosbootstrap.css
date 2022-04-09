@@ -37,3 +37,44 @@
 .dropdown-item:hover{
     background-color: rgba(255, 255, 255, 0.467);
 }
+
+/* Contact form */
+
+.form__button:active{
+    background-color:#EBC0D4;
+}
+
+.textarea{
+    width: fit-content !important;
+    background-color:#EBC0D4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.form-control{
+    background-color:#EBC0D4 !important;
+    border: none;
+    width: fit-content;
+
+}
+
+.form-control::placeholder{
+    color: white !important;
+    font-size: 12px;
+}
+
+.form-control:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    border: white;
+}
+
+.form-label{
+    display: none;   
+}
+
+.col-md-4{
+    margin-bottom: 15px;
+    width: 100%;
+}
