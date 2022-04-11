@@ -55,6 +55,7 @@
 .textarea::placeholder{
     color: white !important;
     font-size: 12px;
+    text-align: center;
 }
 
 .form-control{
