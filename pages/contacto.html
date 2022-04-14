@@ -58,7 +58,7 @@
 
 <!-- Comienza main -->
 <main class="maincontacto">
-    <section class="formsection">
+    <div class="formsection">
         <h1 class="formsection__h1 animate__animated animate__fadeInLeftBig">Contacto.</h1>
         <form class="form animate__animated animate__fadeInUp" action="procesar.php" method="post">
 
@@ -74,12 +74,12 @@
                 </p>
             
                 <p>
-                    <label class="form__label" for="email"> Email:</label>
+                    <label class="form__label" for="email"> Email::</label>
                     <input class="form__input" type="email" name="email"  placeholder="Ingrese su Email">
                 </p>
 
                 <p>
-                    <textarea class="form__input" name="cometario" id="" cols="50" rows="8" placeholder="Dejanos tus comentarios"></textarea>
+                    <textarea class="form__input" name="cometario" id="" cols="50" rows="4" placeholder="Dejanos tus comentarios"></textarea>
                 </p> <!--No se si colocarle la class label o una nueva especifica para el textarea-->
 
                 <input class="form__button" type="reset" value="Borrar">
@@ -87,7 +87,7 @@
                 <p><input class="form__button--1" type="button" value="Sin acciones"></p>
 
             </fieldset>
-        </section>
+    </div>
 
     <section class="mediacontacto slide-in-right">
         <h2 class="mediacontacto__h2">Redes.</h2>
