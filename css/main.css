@@ -3262,6 +3262,437 @@ body {
 
   /* Finaliza Main */
 }
+@media (min-width: 1024px) and (max-width: 1199px) {
+  /* Comienza Main */
+  .main {
+    margin-top: 30px;
+    background-size: cover;
+    height: 400px;
+    display: grid;
+    row-gap: 0px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin-bottom: 90px;
+  }
+  .main .main__section1 {
+    grid-column: 1/5;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main .main__section1 .main__h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+  }
+  .main .main__section2 {
+    margin-top: 20px;
+    display: none;
+    width: 100%;
+    grid-column: 6/9;
+    grid-row: 4/6;
+    display: flex;
+  }
+  .main .main__section2 .main__h2 {
+    margin-top: 20px;
+    display: inline;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: italic;
+    margin-right: 0;
+    color: white;
+  }
+  .main .main__section2 .main__button {
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid white;
+    color: white;
+    background: none;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-top: 10px;
+    width: 95px;
+    height: 30px;
+  }
+  .main .main__section2 .main__button a {
+    color: white;
+  }
+
+  /* Finaliza Main INDEX */
+  /* Comienza Footer */
+  .footer {
+    margin-top: 35px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .footer .footer__derechos {
+    grid-column: 1/10;
+    margin-top: 0;
+    display: block;
+    font-size: 8px;
+    text-align: center;
+    width: 100%;
+  }
+  .footer .footer__ul {
+    display: none;
+    grid-column: 1/5;
+  }
+  .footer .footer__ul .footer__li {
+    display: none;
+    display: inline-block;
+    color: white;
+    padding: 4px 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .footer .footer__ul .footer__li a {
+    display: none;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+  }
+
+  /* Finaliza Footer */
+  /* NOSOTROS */
+  /* Comienza main */
+  .mainnosotros {
+    height: 705px;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .mainnosotros .mainnosotros__section1 {
+    height: 40%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+  .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh2 {
+    align-self: start;
+    justify-self: start;
+    margin-left: 20px;
+    grid-row: 1/2;
+    grid-column: 1/5;
+    color: white;
+  }
+  .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh2 .mainnosotros__h2 {
+    margin-left: 0;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh4 {
+    margin: 5px 30px;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.234);
+    border-radius: 10px;
+    border: 1px solid white;
+    grid-column: 2/8;
+    justify-self: center;
+    align-self: center;
+    grid-row: 2/4;
+  }
+  .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh4 .mainnosotros__h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+  }
+  .mainnosotros .mainnosotros__section2 {
+    height: 50%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+  .mainnosotros .mainnosotros__section2 .mainnosotros__contenedorh3 {
+    margin-left: 10px;
+    grid-row: 1/2;
+    grid-column: 1/9;
+    justify-self: start;
+    align-self: start;
+  }
+  .mainnosotros .mainnosotros__section2 .mainnosotros__contenedorh3 .mainnosotros__h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  .mainnosotros .mainnosotros__section2 .mainnosotros__datos {
+    margin: auto;
+    justify-self: center;
+    grid-row: 2/3;
+    grid-column: 1/9;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .mainnosotros .mainnosotros__section2 .mainnosotros__datos .mainnosotros__datos1 {
+    background-color: rgba(255, 255, 255, 0.234);
+    margin: 30px 40px;
+    width: 180px;
+    height: 180px;
+    border: 1px solid white;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainnosotros .mainnosotros__section2 .mainnosotros__datos .mainnosotros__datos1 .mainnosotros__h5 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  /* Finaliza main */
+  /* RECETAS */
+  /* Comienza main RECETAS*/
+  .sectionrecetas {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-right: 0px;
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-bottom: 90px;
+    width: 100%;
+    height: 340px;
+    color: white;
+  }
+  .sectionrecetas .sectionrecetas__title {
+    grid-row: 1/2;
+    grid-column: 1/5;
+    align-self: start;
+    justify-self: start;
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .sectionrecetas .sectionrecetas__recetas {
+    margin-top: 55px;
+    grid-row: 1/5;
+    grid-column: 1/9;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 .sectionrecetas__h3 {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 .sectionrecetas__img {
+    width: 210px;
+    height: 160px;
+    border-radius: 8px;
+  }
+
+  /* Finaliza Main RECETAS */
+  /* Comienza TIENDA */
+  .maintienda {
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 880px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    row-gap: 10px;
+    color: white;
+  }
+  .maintienda .maintienda__title {
+    display: block;
+    align-self: start;
+    grid-column: 1/9;
+    grid-row: 1;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .maintienda .maintienda__tortas {
+    align-self: start;
+    justify-self: center;
+    grid-column: 1/9;
+    grid-row: 2/3;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .maintienda .maintienda__tortas .maintienda__tortas1 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .maintienda .maintienda__title--1 {
+    align-self: start;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .maintienda .maintienda__dulzuras {
+    align-self: start;
+    justify-self: center;
+    grid-row: 4/5;
+    grid-column: 1/9;
+    margin-bottom: 20px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .maintienda .maintienda__dulzuras .maintienda__dulzuras1 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .maintienda .maintienda__img {
+    width: 210px;
+    height: 160px;
+    border-radius: 8px;
+  }
+  .maintienda .maintienda__descripcion {
+    display: none;
+  }
+  .maintienda .maintienda__precio {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  /* Finaliza Main */
+  /* Comienza CONTACTO */
+  /* Comienza Main CONTACTO*/
+  .maincontacto {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 100%;
+    height: 800px;
+    margin-top: 0;
+  }
+  .maincontacto .formsection {
+    grid-column: 2/8;
+    grid-row: 1/3;
+    margin: 50px 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+  }
+  .maincontacto .formsection .formsection__h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 40px;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 0;
+  }
+  .maincontacto .formsection .form {
+    grid-column: 2/6;
+    grid-row: 2/3;
+    margin: auto;
+    padding: 30px;
+    margin-top: 40px;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.638);
+  }
+  .maincontacto .formsection .form .form__fieldset {
+    border: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .maincontacto .formsection .form .form__fieldset .form__input {
+    border: none;
+    border-radius: 4px;
+    padding: 7px 40px;
+    margin: 5px;
+    background-color: #EBC0D4;
+    color: white;
+  }
+  .maincontacto .formsection .form .form__fieldset textarea {
+    width: 93%;
+  }
+  .maincontacto .formsection .form .form__fieldset .form__button {
+    display: inline;
+    width: 93px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: none;
+    margin: 5px;
+    background-color: #EBC0D4;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  .maincontacto .mediacontacto {
+    display: none;
+    grid-column: 1/9;
+    grid-row: 5/6;
+    margin: 50px 30px;
+    height: 100px;
+  }
+  .maincontacto .mediacontacto .mediacontacto__h2 {
+    display: none;
+  }
+  .maincontacto .mediacontacto .medialistcontacto {
+    margin-top: 17px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .maincontacto .mediacontacto .medialistcontacto .medialistcontacto__li {
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+  .maincontacto .mediacontacto .medialistcontacto .medialistcontacto__li a i {
+    padding: 5px;
+  }
+
+  /* Finaliza Main */
+}
 /* KEYFRAMES */
 /* ----------------------------------------------
  * Generated by Animista on 2022-4-7 22:34:4
