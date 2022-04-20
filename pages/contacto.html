@@ -63,30 +63,26 @@
         <form class="form animate__animated animate__fadeInUp" action="procesar.php" method="post">
 
             <fieldset class="form__fieldset">
-                <p>
-                    <label class="form__label" for="nombre"> Nombre: </label>
-                    <input class="form__input" type="text" name="nombre" placeholder="Ingrese su nombre">
-                </p>
-        
-                <p>
-                    <label class="form__label" for="apellidos"> Apellido:</label>
-                    <input class="form__input" type="text" name="Apellido" placeholder="Ingrese su apellido">
-                </p>
-            
-                <p>
-                    <label class="form__label" for="email"> Email::</label>
-                    <input class="form__input" type="email" name="email"  placeholder="Ingrese su Email">
-                </p>
 
-                <p>
-                    <textarea class="form__input" name="cometario" id="" cols="50" rows="4" placeholder="Dejanos tus comentarios"></textarea>
-                </p> <!--No se si colocarle la class label o una nueva especifica para el textarea-->
+                <label class="form__label" for="nombre"> Nombre: </label>
+                <input class="form__input" type="text" name="nombre" placeholder="Ingrese su nombre">
+                
+                
+                <label class="form__label" for="apellidos"> Apellido:</label>
+                <input class="form__input" type="text" name="Apellido" placeholder="Ingrese su apellido">
+                
+            
+                <label class="form__label" for="email"> Email::</label>
+                <input class="form__input" type="email" name="email"  placeholder="Ingrese su Email">
+
+                <textarea class="form__input" name="cometario" id="" cols="50" rows="4" placeholder="Dejanos tus comentarios"></textarea>
 
                 <input class="form__button" type="reset" value="Borrar">
                 <input class="form__button" type="submit" value="Enviar">
-                <p><input class="form__button--1" type="button" value="Sin acciones"></p>
+                <input class="form__button--1" type="button" value="Sin acciones">
 
             </fieldset>
+            </form>
     </div>
 
     <section class="mediacontacto slide-in-right">

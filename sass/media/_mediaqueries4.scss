@@ -1,0 +1,499 @@
+@media (min-width:481px) and (max-width:599px){
+    /* Comienza Main */
+    .main{
+        margin-top: 30px;
+        background-size: cover;
+        height: 400px;
+        display: grid;
+        row-gap: 6px;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-rows: repeat(6,1fr);
+        margin-bottom: 90px;
+        .main__section1{
+            grid-column: 2/10;
+            grid-row: 1/2;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+            .main__h1{
+                margin-top: 20px;
+                display:inline;
+                font-size: 36px;   
+                text-align: center;
+                width: 100%;
+            }
+        }
+        
+        .main__section2{
+            margin-top: 20px;
+            display: none;
+            width: 100%;
+            grid-column: 2/10;
+            grid-row: 2/4;
+            display: flex;
+            .main__h2{
+                margin-top: 20px;
+                display: inline;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 25px;
+                font-weight: 500;
+                font-style: normal;
+                margin-right: 0;
+                color: white;
+            }
+            .main__button{
+                margin: auto;
+                padding: 0;
+                display:inline;
+                font-family: 'Montserrat', sans-serif;
+                border: 1px solid white;
+                color: white;
+                background: none;
+                font-weight: 400;
+                text-decoration: underline;
+                margin-top: 10px;
+                width: 100px;
+                height: 30px;
+                a{
+                    color: white;
+                    font-size: 14px;
+                    padding: 0;
+                }
+
+                &:hover{
+                    transition: .5s;
+                    border: 2px solid rgb(89, 89, 89);
+                    color:rgb(89, 89, 89);
+                }
+            }
+        }
+    }
+
+
+
+    /* Finaliza Main INDEX */
+    /* Comienza Footer */
+
+    .footer{
+        margin-top: 35px;
+        height: 30px;
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        
+        .footer__derechos{
+            grid-column: 1/10;
+            margin-top: 0;
+            display: block;
+            font-size: 8px;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+
+
+    .footer__ul{
+        display: none;
+        grid-column: 1/5;
+
+        .footer__li{
+            display: none;
+            display: inline-block;
+            color: white;
+            padding: 4px 5px;
+            margin-left: 5px;
+            margin-right:5px;
+
+            a{
+                display: none;
+                text-decoration: none;
+                text-align: center;
+                color: white;
+                font-size: 12px;
+
+                &:hover{
+                    color:rgb(67, 67, 67);
+                    text-decoration: underline;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+    /* Finaliza Footer */
+    /* NOSOTROS */
+    /* Comienza main NOSOTROS */
+    
+    .mainnosotros{
+        height: 805px;
+        margin-top: 50px;
+        width: 100%;
+        .mainnosotros__section1{
+            height: 40%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows: repeat(4,1fr);
+            align-items: center;
+            justify-items: center;
+                        
+            .mainnosotros__contenedorh2{
+                align-self: start;
+                justify-self: center;
+                margin-left: 0;
+                grid-row: 1/2;
+                grid-column: 1/5;
+                color: white;
+                .mainnosotros__h2{
+                    margin-left: 0;
+                    font-weight: 600;
+                    font-size: 35px;
+                }
+            }
+            .mainnosotros__contenedorh4{
+                margin: 5px 15px;
+                padding: 20px 10px;
+                background-color: rgba(255, 255, 255, 0.234);
+                border-radius: 10px;
+                border: 1px solid white;
+                grid-column: 1/9;
+                justify-self: center;
+                align-self: center;
+                grid-row: 2/4;
+                .mainnosotros__h4{
+                    color: white;
+                    font-weight: 400;
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+        }
+        .mainnosotros__section2{
+            height: 50%;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows: repeat(4,1fr);
+            align-items: center;
+            justify-items: center;
+            .mainnosotros__contenedorh3{
+                margin-left: 10px;
+                    grid-row: 1/2;
+                grid-column: 1/9;
+                justify-self: start;
+                align-self: start;
+    
+                .mainnosotros__h3{
+                    color: white;
+                    font-size: 35px;
+                    font-weight: 600;
+                    margin-left: 30px;
+                }
+            }
+            .mainnosotros__datos{
+                grid-row: 2/3;
+                grid-column:1/9;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                .mainnosotros__datos1{
+                    background-color: rgba(255, 255, 255, 0.234);
+                    margin: 30px 20px;
+                    width: 180px;
+                    height: 180px;
+                    border: 1px solid white;
+                    border-radius: 90px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                                
+                    .mainnosotros__h5{
+                        color: white;
+                        text-align: center;
+                        font-size: 13px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+    /* Finaliza main NOSOTROS*/
+    /* RECETAS */
+
+    /* Comienza main */
+    
+    .sectionrecetas{
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: repeat(4,1fr);
+        margin-right: 0px;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        width: 100%;
+        height:890px;
+        color: white;
+        .sectionrecetas__title{
+            grid-row: 1/2;
+            grid-column: 1/5;
+            align-self: start;
+            justify-self: start;
+            margin-top:0px;
+            font-weight: 600;
+            font-size: 35px;
+        }
+        .sectionrecetas__recetas{
+            margin-top: 45px;
+            grid-row: 1/5;
+            grid-column: 1/9;
+            width: 100%;
+            height: max-content;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .sectionrecetas__receta1{
+            margin: 20px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 400;
+            .sectionrecetas__h3{
+                font-weight: 400;
+                font-size: 16px;
+            }
+    
+            .sectionrecetas__img{
+                width: 210px;
+                height: 160px;
+                border-radius: 8px;
+                margin-right: 25px;
+                margin-left: 25px;
+            }
+            &:hover{
+                transform: scale(1.2);
+                transition: .4s;
+            }
+        }    
+    }
+
+/* Finaliza Main RECETAS */
+
+/* Comienza main TIENDA */
+    
+    .maintienda{
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-bottom: 0;
+        width: 100%;
+        height: 2020px;
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: repeat(8,1fr);
+        row-gap: 10px;
+        color: white;
+        .maintienda__title{
+            display: block;
+            align-self: start;
+            grid-column: 1/9;
+            grid-row: 1;
+            font-size: 35px;
+            font-weight: 600;
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+        .maintienda__tortas{
+            align-self: start;
+            justify-self: center;
+            grid-column:1/9 ;
+            grid-row: 2/3;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            width: 100%;
+            height: 48%;
+            display: flex;
+            justify-content:space-around;
+            flex-wrap: wrap;
+            margin-left: 0px;
+            text-align: center;
+
+            .maintienda__tortas1{
+                margin-top: 15px;
+                margin-bottom: 10px;
+                &:hover{
+                    transform: scale(1.2);
+                    transition: .3s;
+                }
+            }
+        }
+        .maintienda__title--1{
+            align-self: start;
+            grid-column: 1/5;
+            grid-row: 3/4;
+            font-size: 35px;
+            font-weight: 600;
+            margin-left: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .maintienda__dulzuras{
+            align-self: start;
+            justify-self: center;
+            grid-row: 4/5;
+            grid-column: 1/9;
+            margin-bottom: 20px;
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+                
+            .maintienda__dulzuras1{
+                margin-top: 15px;
+                margin-bottom: 15px;
+                &:hover{
+                    transform: scale(1.2);
+                    transition: .3s;
+                }
+            }
+        }
+        .maintienda__img{
+            width: 220px;
+            height: 170px;
+            border-radius: 8px;
+            margin-right: 45px;
+            margin-left: 45px;
+        }
+    
+        .maintienda__descripcion{
+            display: none;
+            font-weight: 500;
+            color:white;
+            font-style: normal;
+            font-weight: 300;
+        }
+    
+        .maintienda__precio{
+            font-weight:600;
+            font-size: 14px;
+            border: none;
+            width: 100%;
+            text-align: center;
+            background-color: transparent;
+        }
+    }
+    /* Finaliza Main */
+    /* Comienza CONTACTO */
+    /* Comienza Main CONTACTO*/
+    
+    .maincontacto{
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: repeat(6,1fr);
+        width: 100%;
+        height:800px;
+        .formsection{
+            grid-column: 2/8;
+            grid-row: 1/3;
+            margin: 50px 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: fit-content;
+            .formsection__h1{
+                font-size: 35px;
+                color: white;
+                font-weight: 600;
+                margin-top: 0;
+                background-color: transparent;
+                width: 100%;
+                text-align: center;
+            }
+            .form{
+                margin: auto;
+                padding: 30px;
+                margin-top: 40px;
+                align-items: center;
+                width: 100%;
+                border-radius: 10px;
+                border: 2px solid white;
+                background-color: rgba(255, 255, 255, 0.638);
+                .form__fieldset{
+                    border: none;
+                    margin: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .form__input{
+                        border: none;
+                        border-radius: 4px;
+                        padding: 7px 6px;
+                        margin: 5px;
+                        background-color:#EBC0D4;
+                        color:white;
+                        &::placeholder{
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 400;
+                            font-style: italic;
+                            color: white;
+                            font-size: 9px;
+                            text-align: left;
+                        }
+                    }
+                    textarea{
+                        width: 93%;
+                    }
+                    .form__button{
+                        width: 50px;
+                        padding: 10px 5px;
+                        border-radius: 4px;
+                        border: none;
+                        margin: 5px;
+                        background-color:#EBC0D4;
+                        color: white;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 10px;
+                        &:hover{
+                            border: white;
+                            color: white;
+                            transform: scale(1.1);
+                            transition: .3s;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .mediacontacto{
+            grid-column: 1/9;
+            grid-row: 6/7;
+            margin: 0px 30px;
+            height: 100px;
+            .mediacontacto__h2{
+                display: none;
+            }
+            .medialistcontacto{
+                margin-top: 0;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                .medialistcontacto__li{
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    a i{
+                        padding: 5px;
+
+                        &:hover{
+                            transform: scale(1.6);
+                            transition: .3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        /* Finaliza Main CONTACTO */
+}
