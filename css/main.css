@@ -427,9 +427,12 @@ body {
   width: 100%;
   border: none;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .maincontacto .formsection .form .form__fieldset .form__input {
   border: none;
+  width: 90%;
   border-radius: 4px;
   padding: 7px 5px;
   margin: 5px;
@@ -456,6 +459,7 @@ body {
   display: none;
 }
 .maincontacto .formsection .form .form__fieldset .form__button {
+  width: 100px;
   padding: 10px 25px;
   border-radius: 4px;
   border: none;
