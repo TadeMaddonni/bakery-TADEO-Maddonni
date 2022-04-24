@@ -1,0 +1,22 @@
+
+//map
+$btn-styles:(
+    h1:60px,
+    h2:45px,
+    text:20px,
+);
+
+$h1:map-get($btn-styles, h1);
+$h2:map-get($btn-styles, h2);
+$text:map-get($btn-styles, text);
+
+// estas variables, con valores extraidos del mapa fueron uitilizadas en el esilos.scss
+
+//mixin
+
+@mixin btn-styles{
+    width: 125px;
+    height: 40px;
+    color: white;
+    font-weight: 500;
+}

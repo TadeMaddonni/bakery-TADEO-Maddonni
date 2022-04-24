@@ -141,17 +141,17 @@ body {
   color: white;
 }
 .main .main__section2 .main__button {
+  width: 125px;
+  height: 40px;
+  color: white;
+  font-weight: 500;
   animation-name: prueba1;
   animation-duration: 3s;
   font-family: "Montserrat", sans-serif;
   border: 1px solid white;
-  color: white;
   background: none;
-  font-weight: 400;
   text-decoration: underline;
   margin-top: 20px;
-  width: 125px;
-  height: 35px;
 }
 .main .main__section2 .main__button a {
   color: white;
@@ -203,7 +203,7 @@ body {
 .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh4 .mainnosotros__h4 {
   color: white;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
 }
 .mainnosotros .mainnosotros__section2 {
@@ -322,7 +322,7 @@ body {
   grid-template-rows: repeat(8, 1fr);
   color: white;
 }
-.maintienda .maintienda__title {
+.maintienda .maintienda__title, .maintienda .maintienda__title--1 {
   align-self: start;
   grid-column: 1/2;
   font-size: 35px;
@@ -348,12 +348,7 @@ body {
   cursor: pointer;
 }
 .maintienda .maintienda__title--1 {
-  align-self: start;
   grid-row: 4/5;
-  font-size: 35px;
-  font-weight: 600;
-  margin-left: 15px;
-  margin-top: 20px;
 }
 .maintienda .maintienda__dulzuras {
   justify-self: start;
@@ -459,13 +454,15 @@ body {
   display: none;
 }
 .maincontacto .formsection .form .form__fieldset .form__button {
-  width: 100px;
+  width: 125px;
+  height: 40px;
+  color: white;
+  font-weight: 500;
   padding: 10px 25px;
   border-radius: 4px;
   border: none;
   margin: 5px;
   background-color: #EBC0D4;
-  color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
@@ -478,10 +475,10 @@ body {
   cursor: pointer;
 }
 .maincontacto .formsection .form .form__fieldset .form__button--1 {
-  padding: 10px 17px;
-  border-radius: 4px;
-  border: none;
-  margin: 5px;
+  width: 125px;
+  height: 40px;
+  color: white;
+  font-weight: 500;
   display: none;
 }
 .maincontacto .mediacontacto {
@@ -791,7 +788,7 @@ body {
     row-gap: 10px;
     color: white;
   }
-  .maintienda .maintienda__title {
+  .maintienda .maintienda__title, .maintienda .maintienda__title--1 {
     display: block;
     align-self: start;
     grid-column: 1/9;
@@ -1246,7 +1243,7 @@ body {
     row-gap: 10px;
     color: white;
   }
-  .maintienda .maintienda__title {
+  .maintienda .maintienda__title, .maintienda .maintienda__title--1 {
     display: block;
     align-self: start;
     grid-column: 1/9;
@@ -1714,7 +1711,7 @@ body {
     row-gap: 10px;
     color: white;
   }
-  .maintienda .maintienda__title {
+  .maintienda .maintienda__title, .maintienda .maintienda__title--1 {
     display: block;
     align-self: start;
     grid-column: 1/9;
@@ -2197,7 +2194,7 @@ body {
     row-gap: 10px;
     color: white;
   }
-  .maintienda .maintienda__title {
+  .maintienda .maintienda__title, .maintienda .maintienda__title--1 {
     display: block;
     align-self: start;
     grid-column: 1/9;
@@ -2672,7 +2669,7 @@ body {
     row-gap: 10px;
     color: white;
   }
-  .maintienda .maintienda__title {
+  .maintienda .maintienda__title, .maintienda .maintienda__title--1 {
     display: block;
     align-self: start;
     grid-column: 1/9;
@@ -3100,7 +3097,7 @@ body {
     row-gap: 10px;
     color: white;
   }
-  .maintienda .maintienda__title {
+  .maintienda .maintienda__title, .maintienda .maintienda__title--1 {
     display: block;
     align-self: start;
     grid-column: 1/9;
@@ -3528,7 +3525,7 @@ body {
     row-gap: 10px;
     color: white;
   }
-  .maintienda .maintienda__title {
+  .maintienda .maintienda__title, .maintienda .maintienda__title--1 {
     display: block;
     align-self: start;
     grid-column: 1/9;
