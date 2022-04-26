@@ -13,3 +13,7 @@ Aplicación de keywords: Mediante la etiqueta “Meta” y el “name” “Keyw
 
 
 Encabezados:Todas las etiquetas “h1” utilizadas, hacen referencia a las diferentes secciones del sitio, algunas son: “Bienvenidos a Tadeo Bakery, Tortas, Nosotros, Contacto, etc” por otro lado las etiquetas “h2” tienen el  mismo objetivo.
+
+
+
+asasassas
