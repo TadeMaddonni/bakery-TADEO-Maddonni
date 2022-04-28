@@ -2,7 +2,7 @@
     /* Comienza Main */
     .main{
         background-size: cover;
-        height: 400px;
+        height: 700px;
         display: grid;
         row-gap: 6px;
         grid-template-columns: repeat(10,1fr);
@@ -231,7 +231,7 @@
         margin-left: 0px;
         margin-bottom: 20px;
         width: 100%;
-        height:800px;
+        height:820px;
         color: white;
 
         .sectionrecetas__title{
@@ -290,7 +290,7 @@
         margin-right: 0px;
         margin-bottom: 0;
         width: 100%;
-        height: 1880px;
+        height: 1980px;
         display: grid;
         grid-template-columns: repeat(8,1fr);
         grid-template-rows: repeat(8,1fr);
@@ -495,7 +495,7 @@
                 display: none;
             }
             .medialistcontacto{
-                margin-top: 17px;
+                margin-top: 30px;
                 list-style: none;
                 display: flex;
                 justify-content: center;

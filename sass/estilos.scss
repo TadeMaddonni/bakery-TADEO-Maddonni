@@ -1,5 +1,4 @@
 @import "utilities/variables";
-@import "utilities/map-mixing";
 
 //reseteo
 *{
@@ -137,13 +136,13 @@ body{
             color: white;
             width:500px;
             text-align:center;
-            margin-top: 100px;
+            margin-top: 50px;
             font-size: $h1;
             font-weight: 300;
             font-style: normal;
     
             span{
-                font-weight: 600;
+                font-weight: 800;
             }
         }
     }
@@ -615,4 +614,3 @@ body{
 @import "media/mediaqueries5";
 @import "media/mediaqueries6";
 @import "media/mediaqueries7";
-@import "utilities/animaciones";
