@@ -91,6 +91,7 @@
         grid-template-columns: repeat(8,1fr);
 
         .footer__derechos{
+            margin-left: 0;
             grid-column: 1/10;
             margin-top: 0;
             display: block;

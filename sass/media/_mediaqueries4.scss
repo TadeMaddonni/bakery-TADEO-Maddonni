@@ -83,6 +83,7 @@
         grid-template-columns: repeat(8,1fr);
         
         .footer__derechos{
+            margin-left: 0;
             grid-column: 1/10;
             margin-top: 0;
             display: block;
@@ -90,37 +91,22 @@
             text-align: center;
             width: 100%;
         }
-    }
-
-
-
-    .footer__ul{
-        display: none;
-        grid-column: 1/5;
-
-        .footer__li{
+        .footer__ul{
             display: none;
-            display: inline-block;
-            color: white;
-            padding: 4px 5px;
-            margin-left: 5px;
-            margin-right:5px;
-
-            a{
+    
+            .footer__li{
                 display: none;
-                text-decoration: none;
-                text-align: center;
-                color: white;
-                font-size: 12px;
-
-                &:hover{
-                    color:rgb(67, 67, 67);
-                    text-decoration: underline;
-                    transition: .3s;
+    
+                a{
+                    display: none;
                 }
             }
         }
     }
+
+
+
+
     /* Finaliza Footer */
     /* NOSOTROS */
     /* Comienza main NOSOTROS */
