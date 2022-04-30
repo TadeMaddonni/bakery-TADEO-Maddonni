@@ -1,4 +1,8 @@
 @media (min-width:360px) and (max-width:399px) {
+    body{
+        height: 100%;
+        width: 100%;
+    }
     /* Comienza Main */
     .main{
         background-size: cover;
@@ -405,7 +409,7 @@
         grid-template-columns: repeat(8,1fr);
         grid-template-rows: repeat(6,1fr);
         width: 100%;
-        height:750px;
+        height:790px;
         margin-top: 0;
 
         .formsection{

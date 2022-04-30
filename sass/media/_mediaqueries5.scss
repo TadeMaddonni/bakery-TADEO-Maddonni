@@ -1,9 +1,13 @@
 @media (min-width:600px) and (max-width:767px){
+    body{
+        height: 100%;
+        width: 100%;
+    }
     /* Comienza Main INDEX */
     .main{
         margin-top: 30px;
         background-size: cover;
-        height: 400px;
+        height: 800px;
         display: grid;
         row-gap: 6px;
         grid-template-columns: repeat(10,1fr);
@@ -125,7 +129,7 @@
         /* Comienza main NOSOTRO*/
         
     .mainnosotros{
-        height: 805px;
+        height: 905px;
         margin-top: 50px;
         width: 100%;
         .mainnosotros__section1{
@@ -231,7 +235,7 @@
             margin-left: 0px;
             margin-bottom: 20px;
             width: 100%;
-            height:580px;
+            height:780px;
             color: white;
             .sectionrecetas__title{
                 grid-row: 1/2;

@@ -5,9 +5,7 @@
 }
 
 html {
-  background-image: url(../assets/imagenes/fonditorosa.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #e4b0c2;
 }
 
 body {
@@ -15,6 +13,9 @@ body {
   height: 100%;
   font-family: "Montserrat", sans-serif;
   background-color: transparent;
+  background-image: url(../assets/imagenes/fonditorosa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -50,7 +51,7 @@ body {
 
 .footer {
   margin-top: 20px;
-  height: 50px;
+  height: 60px;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   background-color: rgba(255, 255, 255, 0.301);
@@ -82,6 +83,8 @@ body {
   align-items: flex-end;
 }
 .footer .footer__ul .footer__li {
+  margin-top: 12px;
+  align-self: center;
   display: inline-block;
   color: white;
   padding: 4px 5px;
@@ -105,9 +108,8 @@ body {
 .main {
   background-color: transparent;
   margin-top: 20px;
-  height: max-content;
+  height: 750px;
   display: grid;
-  row-gap: 45px;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin-bottom: 90px;
@@ -162,7 +164,7 @@ body {
   border: 1px solid white;
   background: none;
   text-decoration: underline;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .main .main__section2 .main__button a {
   color: white;
@@ -182,7 +184,7 @@ body {
 
 /* Comienza main NOSOTROS */
 .mainnosotros {
-  height: 100%;
+  height: 1100px;
   margin-top: 5px;
   width: 100%;
 }
@@ -274,7 +276,7 @@ body {
   margin-left: 0px;
   margin-bottom: 20px;
   width: 100%;
-  height: 700px;
+  height: 800px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -525,6 +527,11 @@ body {
 /* MEDIA QUERIES! */
 /* MOBILE */
 @media screen and (max-width: 360px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
   /* Comienza Main */
   .main {
     height: 800px;
@@ -742,7 +749,7 @@ body {
     margin-bottom: 20px;
     margin-top: 50px;
     width: 100%;
-    height: 950px;
+    height: 1120px;
     color: white;
   }
   .sectionrecetas .sectionrecetas__title {
@@ -793,7 +800,7 @@ body {
     margin-right: 0px;
     margin-bottom: 20px;
     width: 100%;
-    height: 1810px;
+    height: 1950px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -992,6 +999,11 @@ body {
   /* Finaliza Main CONTACTO*/
 }
 @media (min-width: 360px) and (max-width: 399px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
   /* Comienza Main */
   .main {
     background-size: cover;
@@ -1345,7 +1357,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 100%;
-    height: 750px;
+    height: 790px;
     margin-top: 0;
   }
   .maincontacto .formsection {
@@ -1448,6 +1460,11 @@ body {
   }
 }
 @media (min-width: 400px) and (max-width: 480px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
   /* Comienza Main */
   .main {
     margin-top: 30px;
@@ -1929,11 +1946,16 @@ body {
   /* Finaliza MainCONTACTO */
 }
 @media (min-width: 481px) and (max-width: 599px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
   /* Comienza Main */
   .main {
     margin-top: 30px;
     background-size: cover;
-    height: 400px;
+    height: 700px;
     display: grid;
     row-gap: 6px;
     grid-template-columns: repeat(10, 1fr);
@@ -2133,7 +2155,7 @@ body {
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
-    height: 890px;
+    height: 1290px;
     color: white;
   }
   .sectionrecetas .sectionrecetas__title {
@@ -2168,8 +2190,8 @@ body {
     font-size: 16px;
   }
   .sectionrecetas .sectionrecetas__receta1 .sectionrecetas__img {
-    width: 210px;
-    height: 160px;
+    width: 180px;
+    height: 130px;
     border-radius: 8px;
     margin-right: 25px;
     margin-left: 25px;
@@ -2186,7 +2208,7 @@ body {
     margin-right: 0px;
     margin-bottom: 0;
     width: 100%;
-    height: 2020px;
+    height: 2220px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -2390,11 +2412,16 @@ body {
   /* Finaliza Main CONTACTO */
 }
 @media (min-width: 600px) and (max-width: 767px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
   /* Comienza Main INDEX */
   .main {
     margin-top: 30px;
     background-size: cover;
-    height: 400px;
+    height: 800px;
     display: grid;
     row-gap: 6px;
     grid-template-columns: repeat(10, 1fr);
@@ -2509,7 +2536,7 @@ body {
   /* NOSOTROS */
   /* Comienza main NOSOTRO*/
   .mainnosotros {
-    height: 805px;
+    height: 905px;
     margin-top: 50px;
     width: 100%;
   }
@@ -2612,7 +2639,7 @@ body {
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
-    height: 580px;
+    height: 780px;
     color: white;
   }
   .sectionrecetas .sectionrecetas__title {
@@ -2838,11 +2865,16 @@ body {
   /* Finaliza Main */
 }
 @media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
   /* Comienza Main */
   .main {
     margin-top: 30px;
     background-size: cover;
-    height: 1000px;
+    height: 1100px;
     display: grid;
     row-gap: 6px;
     grid-template-columns: repeat(10, 1fr);
@@ -2937,7 +2969,7 @@ body {
   /* NOSOTROS */
   /* Comienza main NOSOTROS */
   .mainnosotros {
-    height: 1215px;
+    height: 1105px;
     margin-top: 50px;
     width: 100%;
   }
@@ -3263,11 +3295,16 @@ body {
   /* Finaliza Main */
 }
 @media (min-width: 1024px) and (max-width: 1199px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
   /* Comienza Main */
   .main {
     margin-top: 30px;
     background-size: cover;
-    height: 400px;
+    height: 700px;
     display: grid;
     row-gap: 0px;
     grid-template-columns: repeat(10, 1fr);
@@ -3276,7 +3313,7 @@ body {
   }
   .main .main__section1 {
     grid-column: 1/5;
-    grid-row: 2/4;
+    grid-row: 1/2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3295,7 +3332,7 @@ body {
     display: none;
     width: 100%;
     grid-column: 6/9;
-    grid-row: 4/6;
+    grid-row: 2/4;
     display: flex;
   }
   .main .main__section2 .main__h2 {
@@ -3365,7 +3402,7 @@ body {
   /* NOSOTROS */
   /* Comienza main */
   .mainnosotros {
-    height: 705px;
+    height: 1205px;
     margin-top: 50px;
     width: 100%;
   }
@@ -3470,22 +3507,22 @@ body {
     margin-left: 0px;
     margin-bottom: 90px;
     width: 100%;
-    height: 340px;
+    height: 1040px;
     color: white;
   }
   .sectionrecetas .sectionrecetas__title {
     grid-row: 1/2;
     grid-column: 1/5;
-    align-self: start;
+    align-self: center;
     justify-self: start;
     margin-top: 0px;
     font-weight: 600;
     font-size: 40px;
   }
   .sectionrecetas .sectionrecetas__recetas {
-    margin-top: 55px;
-    grid-row: 1/5;
-    grid-column: 1/9;
+    margin-top: 0;
+    grid-row: 2/5;
+    grid-column: 2/8;
     width: 100%;
     height: max-content;
     display: flex;
@@ -3495,7 +3532,7 @@ body {
     align-items: center;
   }
   .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 {
-    margin: 20px;
+    margin: 30px;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
@@ -3505,8 +3542,8 @@ body {
     font-size: 16px;
   }
   .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 .sectionrecetas__img {
-    width: 210px;
-    height: 160px;
+    width: 240px;
+    height: 190px;
     border-radius: 8px;
   }
 
