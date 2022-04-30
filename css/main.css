@@ -527,7 +527,7 @@ body {
 @media screen and (max-width: 360px) {
   /* Comienza Main */
   .main {
-    height: 400px;
+    height: 800px;
     display: grid;
     row-gap: 6px;
     grid-template-columns: repeat(10, 1fr);
@@ -742,7 +742,7 @@ body {
     margin-bottom: 20px;
     margin-top: 50px;
     width: 100%;
-    height: 900px;
+    height: 950px;
     color: white;
   }
   .sectionrecetas .sectionrecetas__title {
@@ -793,7 +793,7 @@ body {
     margin-right: 0px;
     margin-bottom: 20px;
     width: 100%;
-    height: 1720px;
+    height: 1810px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -886,7 +886,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 100%;
-    height: 700px;
+    height: 800px;
     margin-top: 0;
   }
   .maincontacto .formsection {
@@ -974,7 +974,7 @@ body {
   .mediacontacto .medialistcontacto {
     display: flex;
     justify-content: center;
-    margin-top: 17px;
+    margin-top: 67px;
     list-style: none;
   }
   .mediacontacto .medialistcontacto .medialistcontacto__li {
