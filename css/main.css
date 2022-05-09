@@ -606,7 +606,7 @@ body {
   /* Finaliza Main INDEX*/
   /* Comienza Footer */
   .footer {
-    margin-top: 85px;
+    margin-top: 105px;
     height: 30px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -746,7 +746,7 @@ body {
     grid-template-rows: repeat(4, 1fr);
     margin-right: 0px;
     margin-left: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-top: 50px;
     width: 100%;
     height: 1120px;
@@ -798,7 +798,7 @@ body {
   .maintienda {
     margin-top: 5px;
     margin-right: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     width: 100%;
     height: 1950px;
     display: grid;
@@ -823,7 +823,7 @@ body {
     grid-column: 1/9;
     grid-row: 2/3;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 100%;
     height: 48%;
     display: flex;
@@ -855,7 +855,7 @@ body {
     justify-self: center;
     grid-row: 4/5;
     grid-column: 1/9;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     width: 100%;
     height: fit-content;
     display: flex;
@@ -1081,7 +1081,7 @@ body {
   /* Finaliza Main I */
   /* Comienza Footer */
   .footer {
-    margin-top: 35px;
+    margin-top: 85px;
     height: 30px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -1208,9 +1208,9 @@ body {
     margin-right: 0px;
     margin-top: 50px;
     margin-left: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     width: 100%;
-    height: 820px;
+    height: 920px;
     color: white;
   }
   .sectionrecetas .sectionrecetas__title {
@@ -1259,9 +1259,9 @@ body {
   .maintienda {
     margin-top: 5px;
     margin-right: 0px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     width: 100%;
-    height: 1980px;
+    height: 2140px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -1284,7 +1284,7 @@ body {
     grid-column: 1/9;
     grid-row: 2/3;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 100%;
     height: 48%;
     display: flex;
