@@ -180,9 +180,10 @@ body{
         }
         
         .main__button{
-            @include btn-styles ();
-            animation-name: prueba1;
-            animation-duration: 3s;
+            width: 120px;
+            height: 32px;
+            color: white;
+            font-weight: 500;
             font-family: 'Montserrat', sans-serif;
             border: 1px solid white;
             background: none;
@@ -191,6 +192,7 @@ body{
         
             a{
                 color: white;
+                font-size: 14px;
             }
 
             &:hover{
