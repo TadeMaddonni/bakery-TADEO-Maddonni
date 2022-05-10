@@ -577,10 +577,10 @@ body {
     margin: auto;
     display: inline;
     font-family: "Montserrat", sans-serif;
-    border: 1px solid white;
+    border: 3px solid white;
     color: white;
-    background: none;
-    font-weight: 400;
+    background: rgba(104, 83, 83, 0.352);
+    font-weight: 700;
     text-decoration: underline;
     margin-top: 10px;
     width: 95px;
@@ -878,7 +878,7 @@ body {
     display: none;
   }
   .maintienda .maintienda__precio {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     border: none;
     border-radius: 2px;
@@ -1025,7 +1025,7 @@ body {
     margin-top: 20px;
     display: inline;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
     width: 100%;
   }
@@ -1038,12 +1038,13 @@ body {
     display: flex;
   }
   .main .main__section2 .main__h2 {
+    text-shadow: rgba(104, 83, 83, 0.352);
     margin-top: 20px;
     display: inline;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
     margin-right: 0;
     color: white;
@@ -1052,14 +1053,15 @@ body {
     margin: auto;
     display: inline;
     font-family: "Montserrat", sans-serif;
-    border: 1px solid white;
+    border: 2px solid white;
     color: white;
-    background: none;
-    font-weight: 400;
+    background: rgba(104, 83, 83, 0.352);
+    font-weight: 500;
     text-decoration: underline;
     margin-top: 10px;
     width: 95px;
     height: 30px;
+    border-radius: 6px;
   }
   .main .main__section2 .main__button a {
     color: white;
@@ -1343,7 +1345,7 @@ body {
     font-weight: 300;
   }
   .maintienda .maintienda__precio {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     border: none;
   }
@@ -1441,7 +1443,7 @@ body {
     display: none;
   }
   .maincontacto .mediacontacto .medialistcontacto {
-    margin-top: 30px;
+    margin-top: 60px;
     list-style: none;
     display: flex;
     justify-content: center;
