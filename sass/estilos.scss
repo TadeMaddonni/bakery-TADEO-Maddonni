@@ -520,6 +520,7 @@ body{
                 flex-direction: column;
 
                 .form__input{
+                    align-self: center;
                     border: none;
                     width: 90%;
                     border-radius: 4px;
@@ -553,6 +554,7 @@ body{
                 }
 
                 .form__button{
+                    align-self: center;
                     @include btn-styles();
                     padding: 10px 25px;
                     border-radius: 4px;
@@ -625,7 +627,6 @@ body{
 @import "media/mediaqueries2";
 @import "media/mediaqueries3";
 @import "media/mediaqueries4";
-@import "media/mediaqueries5";
 @import "media/mediaqueries6";
 @import "media/mediaqueries7";
 @import "utilities/animaciones";

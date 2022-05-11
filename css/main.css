@@ -438,6 +438,7 @@ body {
   flex-direction: column;
 }
 .maincontacto .formsection .form .form__fieldset .form__input {
+  align-self: center;
   border: none;
   width: 90%;
   border-radius: 4px;
@@ -466,7 +467,8 @@ body {
   display: none;
 }
 .maincontacto .formsection .form .form__fieldset .form__button {
-  width: 125px;
+  align-self: center;
+  width: 90px;
   height: 40px;
   color: white;
   font-weight: 500;
@@ -487,7 +489,7 @@ body {
   cursor: pointer;
 }
 .maincontacto .formsection .form .form__fieldset .form__button--1 {
-  width: 125px;
+  width: 90px;
   height: 40px;
   color: white;
   font-weight: 500;
@@ -1837,7 +1839,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 100%;
-    height: 800px;
+    height: 840px;
     margin-top: 0;
   }
   .maincontacto .formsection {
@@ -2310,7 +2312,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 100%;
-    height: 800px;
+    height: 850px;
   }
   .maincontacto .formsection {
     grid-column: 2/8;
@@ -2412,17 +2414,17 @@ body {
 
   /* Finaliza Main CONTACTO */
 }
-@media (min-width: 600px) and (max-width: 767px) {
+@media (min-width: 600px) and (max-width: 1023px) {
   body {
     height: 100%;
     width: 100%;
   }
 
-  /* Comienza Main INDEX */
+  /* Comienza Main */
   .main {
     margin-top: 30px;
     background-size: cover;
-    height: 800px;
+    height: 1000px;
     display: grid;
     row-gap: 6px;
     grid-template-columns: repeat(10, 1fr);
@@ -2431,7 +2433,7 @@ body {
   }
   .main .main__section1 {
     grid-column: 2/10;
-    grid-row: 2/3;
+    grid-row: 1/2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2440,7 +2442,7 @@ body {
   .main .main__section1 .main__h1 {
     margin-top: 20px;
     display: inline;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     width: 100%;
   }
@@ -2449,7 +2451,7 @@ body {
     display: none;
     width: 100%;
     grid-column: 2/10;
-    grid-row: 4/6;
+    grid-row: 2/4;
     display: flex;
   }
   .main .main__section2 .main__h2 {
@@ -2459,12 +2461,13 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 35px;
     font-weight: 500;
-    font-style: italic;
+    font-style: normal;
     margin-right: 0;
     color: white;
   }
   .main .main__section2 .main__button {
     margin: auto;
+    padding: 0;
     display: inline;
     font-family: "Montserrat", sans-serif;
     border: 1px solid white;
@@ -2473,71 +2476,52 @@ body {
     font-weight: 400;
     text-decoration: underline;
     margin-top: 10px;
-    width: 95px;
+    width: 100px;
     height: 30px;
   }
   .main .main__section2 .main__button a {
     color: white;
+    font-size: 14px;
+    padding: 0;
   }
   .main .main__section2 .main__button:hover {
-    transition: 0.3s;
+    transition: 0.5s;
     border: 2px solid rgb(89, 89, 89);
     color: rgb(89, 89, 89);
   }
-  .main .main__section2 .main__button:hover .button__tienda {
-    transition: 0.3s;
-    color: rgb(89, 89, 89);
-  }
-  .main .main__section2 .main__button .button__tienda:visited {
-    color: white;
-  }
 
-  /* Finaliza Main INDEX*/
+  /* Finaliza Main INDEX */
   /* Comienza Footer */
   .footer {
     margin-top: 35px;
-    height: 30px;
+    height: 50px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
   }
   .footer .footer__derechos {
+    margin-left: 0;
     grid-column: 1/10;
     margin-top: 0;
     display: block;
-    font-size: 8px;
+    font-size: 12px;
     text-align: center;
     width: 100%;
   }
   .footer .footer__ul {
     display: none;
-    grid-column: 1/5;
   }
   .footer .footer__ul .footer__li {
     display: none;
-    display: inline-block;
-    color: white;
-    padding: 4px 5px;
-    margin-left: 5px;
-    margin-right: 5px;
   }
   .footer .footer__ul .footer__li a {
     display: none;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    font-size: 12px;
-  }
-  .footer .footer__ul .footer__li a:hover {
-    color: rgb(67, 67, 67);
-    text-decoration: underline;
-    transition: 0.3s;
   }
 
   /* Finaliza Footer */
   /* NOSOTROS */
-  /* Comienza main NOSOTRO*/
+  /* Comienza main NOSOTROS */
   .mainnosotros {
-    height: 905px;
+    height: 1005px;
     margin-top: 50px;
     width: 100%;
   }
@@ -2552,10 +2536,10 @@ body {
   }
   .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh2 {
     align-self: start;
-    justify-self: start;
-    margin-left: 20px;
+    justify-self: center;
+    margin-left: 10px;
     grid-row: 1/2;
-    grid-column: 1/5;
+    grid-column: 1/3;
     color: white;
   }
   .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh2 .mainnosotros__h2 {
@@ -2577,7 +2561,7 @@ body {
   .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh4 .mainnosotros__h4 {
     color: white;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 14px;
     text-align: center;
   }
   .mainnosotros .mainnosotros__section2 {
@@ -2624,13 +2608,13 @@ body {
   .mainnosotros .mainnosotros__section2 .mainnosotros__datos .mainnosotros__datos1 .mainnosotros__h5 {
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
   }
 
-  /* Finaliza main */
+  /* Finaliza main NOSOTROS*/
   /* RECETAS */
-  /* Comienza main RECETAS */
+  /* Comienza main */
   .sectionrecetas {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -2640,7 +2624,7 @@ body {
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
-    height: 780px;
+    height: 1190px;
     color: white;
   }
   .sectionrecetas .sectionrecetas__title {
@@ -2650,10 +2634,11 @@ body {
     justify-self: start;
     margin-top: 0px;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 45px;
+    margin-bottom: 30px;
   }
   .sectionrecetas .sectionrecetas__recetas {
-    margin-top: 55px;
+    margin-top: 125px;
     grid-row: 1/5;
     grid-column: 1/9;
     width: 100%;
@@ -2664,32 +2649,36 @@ body {
     flex-wrap: wrap;
     align-items: center;
   }
-  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 {
+  .sectionrecetas .sectionrecetas__receta1 {
     margin: 20px;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
   }
-  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 .sectionrecetas__h3 {
-    font-weight: 400;
+  .sectionrecetas .sectionrecetas__receta1 .sectionrecetas__h3 {
+    font-weight: 500;
     font-size: 16px;
   }
-  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 .sectionrecetas__img {
-    width: 210px;
-    height: 160px;
+  .sectionrecetas .sectionrecetas__receta1 .sectionrecetas__img {
+    width: 180px;
+    height: 130px;
     border-radius: 8px;
     margin-right: 25px;
     margin-left: 25px;
   }
+  .sectionrecetas .sectionrecetas__receta1:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+  }
 
-  /* Finaliza Main */
-  /* Comienza TIENDA */
+  /* Finaliza Main RECETAS */
+  /* Comienza main TIENDA */
   .maintienda {
     margin-top: 5px;
     margin-right: 0px;
     margin-bottom: 0;
     width: 100%;
-    height: 1200px;
+    height: 1220px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -2716,7 +2705,7 @@ body {
     width: 100%;
     height: 48%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-left: 0px;
     text-align: center;
@@ -2724,6 +2713,10 @@ body {
   .maintienda .maintienda__tortas .maintienda__tortas1 {
     margin-top: 15px;
     margin-bottom: 10px;
+  }
+  .maintienda .maintienda__tortas .maintienda__tortas1:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
   }
   .maintienda .maintienda__title--1 {
     align-self: start;
@@ -2744,19 +2737,23 @@ body {
     width: 100%;
     height: fit-content;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
   .maintienda .maintienda__dulzuras .maintienda__dulzuras1 {
     margin-top: 15px;
     margin-bottom: 15px;
   }
+  .maintienda .maintienda__dulzuras .maintienda__dulzuras1:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
   .maintienda .maintienda__img {
     width: 220px;
     height: 170px;
     border-radius: 8px;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 45px;
+    margin-left: 45px;
   }
   .maintienda .maintienda__descripcion {
     display: none;
@@ -2766,441 +2763,12 @@ body {
     font-weight: 300;
   }
   .maintienda .maintienda__precio {
-    margin: auto;
-    padding: 2px;
-    font-weight: 400;
-    font-size: 14px;
-    width: 80%;
-  }
-
-  /* Finaliza Main */
-  /* Comienza CONTACTO */
-  /* Comienza Main CONTACTO */
-  .maincontacto {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    width: 100%;
-    height: 800px;
-    margin-top: 0;
-  }
-  .maincontacto .formsection {
-    grid-column: 2/8;
-    grid-row: 1/3;
-    margin: 50px 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: fit-content;
-  }
-  .maincontacto .formsection .formsection__h1 {
-    font-size: 35px;
-    color: white;
     font-weight: 600;
-    margin-top: 0;
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    text-align: center;
     background-color: transparent;
-    width: 100%;
-    text-align: center;
-  }
-  .maincontacto .formsection .form {
-    margin: auto;
-    padding: 30px;
-    margin-top: 40px;
-    align-items: center;
-    width: 100%;
-    border-radius: 10px;
-    border: 2px solid white;
-    background-color: rgba(255, 255, 255, 0.638);
-  }
-  .maincontacto .formsection .form .form__fieldset {
-    border: none;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .maincontacto .formsection .form .form__fieldset .form__input {
-    border: none;
-    width: 90%;
-    border-radius: 4px;
-    padding: 7px 6px;
-    margin-top: 5px;
-    background-color: #EBC0D4;
-    color: white;
-  }
-  .maincontacto .formsection .form .form__fieldset textarea {
-    width: 93%;
-  }
-  .maincontacto .formsection .form .form__fieldset .form__button {
-    width: 70px;
-    padding: 7px 15px;
-    border-radius: 4px;
-    border: none;
-    margin: 5px;
-    background-color: #EBC0D4;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
-  }
-  .maincontacto .mediacontacto {
-    display: inline;
-    grid-column: 1/9;
-    grid-row: 6/7;
-    margin: 50px 30px;
-    height: 100px;
-  }
-  .maincontacto .mediacontacto .mediacontacto__h2 {
-    display: none;
-  }
-  .maincontacto .mediacontacto .medialistcontacto {
-    display: flex;
-    justify-content: center;
-    margin-top: 17px;
-    list-style: none;
-  }
-  .maincontacto .mediacontacto .medialistcontacto .medialistcontacto__li a i {
-    padding: 5px;
-  }
-
-  /* Finaliza Main */
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  body {
-    height: 100%;
-    width: 100%;
-  }
-
-  /* Comienza Main */
-  .main {
-    margin-top: 30px;
-    background-size: cover;
-    height: 1100px;
-    display: grid;
-    row-gap: 6px;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    margin-bottom: 90px;
-  }
-  .main .main__section1 {
-    grid-column: 2/10;
-    grid-row: 2/3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .main .main__section1 .main__h1 {
-    margin-top: 20px;
-    display: inline;
-    font-size: 40px;
-    text-align: center;
-    width: 100%;
-  }
-  .main .main__section2 {
-    margin-top: 20px;
-    display: none;
-    width: 100%;
-    grid-column: 2/10;
-    grid-row: 3/4;
-    display: flex;
-  }
-  .main .main__section2 .main__h2 {
-    margin-top: 20px;
-    display: inline;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 35px;
-    font-weight: 600;
-    font-style: italic;
-    margin-right: 0;
-    color: white;
-  }
-  .main .main__section2 .main__button {
-    margin: auto;
-    display: inline;
-    font-family: "Montserrat", sans-serif;
-    border: 1px solid white;
-    color: white;
-    background: none;
-    font-weight: 400;
-    text-decoration: underline;
-    margin-top: 10px;
-    width: 95px;
-    height: 30px;
-  }
-  .main .main__section2 .main__button a {
-    color: #fff;
-  }
-  .main .main__section2 .main__button:hover {
-    transition: 0.3s;
-    border: 2px solid rgb(89, 89, 89);
-    color: rgb(89, 89, 89);
-  }
-
-  /* Finaliza Main */
-  /* Comienza Footer */
-  .footer {
-    margin-top: 35px;
-    height: 30px;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-  }
-  .footer .footer__derechos {
-    grid-column: 1/10;
-    margin-top: 0;
-    display: block;
-    font-size: 8px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .footer__ul {
-    display: none;
-    grid-column: 1/5;
-  }
-  .footer__ul .footer__li {
-    display: none;
-  }
-  .footer__ul .footer__li a {
-    display: none;
-  }
-
-  /* Finaliza Footer */
-  /* NOSOTROS */
-  /* Comienza main NOSOTROS */
-  .mainnosotros {
-    height: 1105px;
-    margin-top: 50px;
-    width: 100%;
-  }
-  .mainnosotros .mainnosotros__section1 {
-    height: 40%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    align-items: center;
-    justify-items: center;
-  }
-  .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh2 {
-    align-self: start;
-    justify-self: start;
-    margin-left: 20px;
-    grid-row: 1/2;
-    grid-column: 1/5;
-    color: white;
-  }
-  .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh2 .mainnosotros__h2 {
-    margin-left: 0;
-    font-weight: 600;
-    font-size: 35px;
-  }
-  .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh4 {
-    margin: 5px 30px;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 0.234);
-    border-radius: 10px;
-    border: 1px solid white;
-    grid-column: 1/9;
-    justify-self: center;
-    align-self: center;
-    grid-row: 2/4;
-  }
-  .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh4 .mainnosotros__h4 {
-    color: white;
-    font-weight: 400;
-    font-size: 19px;
-    text-align: center;
-  }
-  .mainnosotros .mainnosotros__section2 {
-    height: 50%;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    align-items: center;
-    justify-items: center;
-  }
-  .mainnosotros .mainnosotros__section2 .mainnosotros__contenedorh3 {
-    margin-left: 10px;
-    grid-row: 1/2;
-    grid-column: 1/9;
-    justify-self: start;
-    align-self: start;
-  }
-  .mainnosotros .mainnosotros__section2 .mainnosotros__contenedorh3 .mainnosotros__h3 {
-    color: white;
-    font-size: 35px;
-    font-weight: 600;
-    margin-left: 10px;
-  }
-  .mainnosotros .mainnosotros__section2 .mainnosotros__datos {
-    grid-row: 2/3;
-    grid-column: 1/9;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .mainnosotros .mainnosotros__section2 .mainnosotros__datos .mainnosotros__datos1 {
-    background-color: rgba(255, 255, 255, 0.234);
-    margin: 30px 40px;
-    width: 180px;
-    height: 180px;
-    border: 1px solid white;
-    border-radius: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .mainnosotros .mainnosotros__section2 .mainnosotros__datos .mainnosotros__datos1 .mainnosotros__h5 {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 300;
-  }
-
-  /* Finaliza main NOSOTROS */
-  /* RECETAS */
-  /* Comienza main RECETAS*/
-  .sectionrecetas {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    margin-right: 0px;
-    margin-top: 50px;
-    margin-left: 0px;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 1080px;
-    color: white;
-  }
-  .sectionrecetas .sectionrecetas__title {
-    grid-row: 1/2;
-    grid-column: 1/5;
-    align-self: start;
-    justify-self: start;
-    margin-top: 0px;
-    font-weight: 600;
-    font-size: 35px;
-  }
-  .sectionrecetas .sectionrecetas__recetas {
-    margin-top: 100px;
-    grid-row: 1/5;
-    grid-column: 1/9;
-    width: 100%;
-    height: max-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 {
-    margin: 20px;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-  }
-  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 .sectionrecetas__h3 {
-    font-weight: 400;
-    font-size: 17px;
-  }
-  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 .sectionrecetas__img {
-    width: 250px;
-    height: 200px;
-    border-radius: 8px;
-    margin-right: 35px;
-    margin-left: 25px;
-  }
-
-  /* Finaliza Main */
-  /* Comienza TIENDA */
-  .maintienda {
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 0;
-    width: 100%;
-    height: 1400px;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    row-gap: 10px;
-    color: white;
-  }
-  .maintienda .maintienda__title, .maintienda .maintienda__title--1 {
-    display: block;
-    align-self: start;
-    grid-column: 1/9;
-    grid-row: 1;
-    font-size: 35px;
-    font-weight: 600;
-    margin-left: 15px;
-    margin-top: 20px;
-  }
-  .maintienda .maintienda__tortas {
-    align-self: start;
-    justify-self: center;
-    grid-column: 1/9;
-    grid-row: 2/3;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    width: 100%;
-    height: 48%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-left: 0px;
-    text-align: center;
-  }
-  .maintienda .maintienda__tortas .maintienda__tortas1 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-  }
-  .maintienda .maintienda__title--1 {
-    align-self: start;
-    grid-column: 1/5;
-    grid-row: 3/4;
-    font-size: 35px;
-    font-weight: 600;
-    margin-left: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .maintienda .maintienda__dulzuras {
-    align-self: start;
-    justify-self: center;
-    grid-row: 4/5;
-    grid-column: 1/9;
-    margin-bottom: 20px;
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-  .maintienda .maintienda__dulzuras .maintienda__dulzuras1 {
-    margin-top: 25px;
-    margin-bottom: 15px;
-  }
-  .maintienda .maintienda__img {
-    width: 260px;
-    height: 210px;
-    border-radius: 8px;
-    margin-right: 42px;
-    margin-left: 40px;
-  }
-  .maintienda .maintienda__descripcion {
-    display: none;
-  }
-  .maintienda .maintienda__precio {
-    font-weight: 400;
-    font-size: 14px;
-    width: 78%;
-    padding: 2px;
-    margin: auto;
-    border: none;
   }
 
   /* Finaliza Main */
@@ -3211,13 +2779,12 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 100%;
-    height: 1000px;
-    margin-top: 0;
+    height: 1100px;
   }
   .maincontacto .formsection {
     grid-column: 2/8;
     grid-row: 1/3;
-    margin: 50px 30px;
+    margin: 50px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3229,8 +2796,8 @@ body {
     font-weight: 600;
     margin-top: 0;
     background-color: transparent;
-    text-align: center;
     width: 100%;
+    text-align: center;
   }
   .maincontacto .formsection .form {
     margin: auto;
@@ -3248,66 +2815,79 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   .maincontacto .formsection .form .form__fieldset .form__input {
     border: none;
-    width: 90%;
     border-radius: 4px;
     padding: 7px 6px;
     margin: 5px;
     background-color: #EBC0D4;
     color: white;
   }
+  .maincontacto .formsection .form .form__fieldset .form__input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    font-size: 9px;
+    text-align: left;
+  }
   .maincontacto .formsection .form .form__fieldset textarea {
     width: 93%;
   }
   .maincontacto .formsection .form .form__fieldset .form__button {
-    width: 70px;
-    padding: 7px 15px;
+    width: 60px;
+    padding: 4px 5px;
     border-radius: 4px;
     border: none;
     margin: 5px;
     background-color: #EBC0D4;
     color: white;
     font-family: "Montserrat", sans-serif;
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .maincontacto .formsection .form .form__fieldset .form__button:hover {
+    border: white;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
   }
   .maincontacto .mediacontacto {
-    display: inline;
     grid-column: 1/9;
     grid-row: 6/7;
-    margin: 50px 30px;
+    margin: 0px 30px;
     height: 100px;
   }
   .maincontacto .mediacontacto .mediacontacto__h2 {
     display: none;
   }
   .maincontacto .mediacontacto .medialistcontacto {
+    margin-top: 0;
+    list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 17px;
-    list-style: none;
+  }
+  .maincontacto .mediacontacto .medialistcontacto .medialistcontacto__li {
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .maincontacto .mediacontacto .medialistcontacto .medialistcontacto__li a i {
     padding: 5px;
   }
-
-  /* Finaliza Main */
-}
-@media (min-width: 1024px) and (max-width: 1199px) {
-  body {
-    height: 100%;
-    width: 100%;
+  .maincontacto .mediacontacto .medialistcontacto .medialistcontacto__li a i:hover {
+    transform: scale(1.6);
+    transition: 0.3s;
   }
 
-  /* Comienza Main */
+  /* Finaliza Main CONTACTO */
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
   .main {
     margin-top: 30px;
     background-size: cover;
-    height: 700px;
+    height: 1200px;
     display: grid;
-    row-gap: 0px;
+    row-gap: 6px;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(6, 1fr);
     margin-bottom: 90px;
@@ -3322,9 +2902,8 @@ body {
   }
   .main .main__section1 .main__h1 {
     margin-top: 20px;
-    margin-left: 20px;
     display: inline;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     width: 100%;
   }
@@ -3332,22 +2911,24 @@ body {
     margin-top: 20px;
     display: none;
     width: 100%;
-    grid-column: 6/9;
+    grid-column: 6/10;
     grid-row: 2/4;
     display: flex;
   }
   .main .main__section2 .main__h2 {
     margin-top: 20px;
     display: inline;
-    text-align: left;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 500;
     font-style: italic;
     margin-right: 0;
     color: white;
   }
   .main .main__section2 .main__button {
+    margin: auto;
+    padding: 0;
     display: inline;
     font-family: "Montserrat", sans-serif;
     border: 1px solid white;
@@ -3356,52 +2937,50 @@ body {
     font-weight: 400;
     text-decoration: underline;
     margin-top: 10px;
-    width: 95px;
+    width: 100px;
     height: 30px;
   }
   .main .main__section2 .main__button a {
     color: white;
+    font-size: 14px;
+    padding: 0;
+  }
+  .main .main__section2 .main__button:hover {
+    transition: 0.5s;
+    border: 2px solid rgb(89, 89, 89);
+    color: rgb(89, 89, 89);
   }
 
   /* Finaliza Main INDEX */
   /* Comienza Footer */
   .footer {
     margin-top: 35px;
-    height: 30px;
+    height: 50px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
   }
   .footer .footer__derechos {
+    margin-left: 0;
     grid-column: 1/10;
     margin-top: 0;
     display: block;
-    font-size: 8px;
+    font-size: 12px;
     text-align: center;
     width: 100%;
   }
   .footer .footer__ul {
     display: none;
-    grid-column: 1/5;
   }
   .footer .footer__ul .footer__li {
     display: none;
-    display: inline-block;
-    color: white;
-    padding: 4px 5px;
-    margin-left: 5px;
-    margin-right: 5px;
   }
   .footer .footer__ul .footer__li a {
     display: none;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    font-size: 12px;
   }
 
   /* Finaliza Footer */
   /* NOSOTROS */
-  /* Comienza main */
+  /* Comienza main NOSOTROS */
   .mainnosotros {
     height: 1205px;
     margin-top: 50px;
@@ -3418,20 +2997,20 @@ body {
   }
   .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh2 {
     align-self: start;
-    justify-self: start;
-    margin-left: 20px;
+    justify-self: center;
+    margin-left: 10px;
     grid-row: 1/2;
-    grid-column: 1/5;
+    grid-column: 1/3;
     color: white;
   }
   .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh2 .mainnosotros__h2 {
     margin-left: 0;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
   }
   .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh4 {
-    margin: 5px 30px;
-    padding: 20px 10px;
+    margin: 5px 15px;
+    padding: 50px 30px;
     background-color: rgba(255, 255, 255, 0.234);
     border-radius: 10px;
     border: 1px solid white;
@@ -3443,7 +3022,7 @@ body {
   .mainnosotros .mainnosotros__section1 .mainnosotros__contenedorh4 .mainnosotros__h4 {
     color: white;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 16px;
     text-align: center;
   }
   .mainnosotros .mainnosotros__section2 {
@@ -3465,13 +3044,11 @@ body {
   }
   .mainnosotros .mainnosotros__section2 .mainnosotros__contenedorh3 .mainnosotros__h3 {
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     margin-left: 10px;
   }
   .mainnosotros .mainnosotros__section2 .mainnosotros__datos {
-    margin: auto;
-    justify-self: center;
     grid-row: 2/3;
     grid-column: 1/9;
     display: flex;
@@ -3480,7 +3057,7 @@ body {
   }
   .mainnosotros .mainnosotros__section2 .mainnosotros__datos .mainnosotros__datos1 {
     background-color: rgba(255, 255, 255, 0.234);
-    margin: 30px 40px;
+    margin: 30px 20px;
     width: 180px;
     height: 180px;
     border: 1px solid white;
@@ -3492,37 +3069,38 @@ body {
   .mainnosotros .mainnosotros__section2 .mainnosotros__datos .mainnosotros__datos1 .mainnosotros__h5 {
     color: white;
     text-align: center;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 500;
   }
 
-  /* Finaliza main */
+  /* Finaliza main NOSOTROS*/
   /* RECETAS */
-  /* Comienza main RECETAS*/
+  /* Comienza main */
   .sectionrecetas {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(4, 1fr);
     margin-right: 0px;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 0px;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
     width: 100%;
-    height: 1040px;
+    height: 1190px;
     color: white;
   }
   .sectionrecetas .sectionrecetas__title {
     grid-row: 1/2;
     grid-column: 1/5;
-    align-self: center;
+    align-self: start;
     justify-self: start;
     margin-top: 0px;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 45px;
+    margin-bottom: 30px;
   }
   .sectionrecetas .sectionrecetas__recetas {
-    margin-top: 0;
-    grid-row: 2/5;
+    margin-top: 125px;
+    grid-row: 1/5;
     grid-column: 2/8;
     width: 100%;
     height: max-content;
@@ -3532,30 +3110,37 @@ body {
     flex-wrap: wrap;
     align-items: center;
   }
-  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 {
+  .sectionrecetas .sectionrecetas__receta1 {
     margin: 30px;
+    margin-left: 50px;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
   }
-  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 .sectionrecetas__h3 {
-    font-weight: 400;
+  .sectionrecetas .sectionrecetas__receta1 .sectionrecetas__h3 {
+    font-weight: 500;
     font-size: 16px;
   }
-  .sectionrecetas .sectionrecetas__recetas .sectionrecetas__receta1 .sectionrecetas__img {
-    width: 240px;
-    height: 190px;
+  .sectionrecetas .sectionrecetas__receta1 .sectionrecetas__img {
+    width: 180px;
+    height: 130px;
     border-radius: 8px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .sectionrecetas .sectionrecetas__receta1:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
   }
 
   /* Finaliza Main RECETAS */
-  /* Comienza TIENDA */
+  /* Comienza main TIENDA */
   .maintienda {
     margin-top: 5px;
     margin-right: 0px;
     margin-bottom: 0;
     width: 100%;
-    height: 880px;
+    height: 1220px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -3567,7 +3152,7 @@ body {
     align-self: start;
     grid-column: 1/9;
     grid-row: 1;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 600;
     margin-left: 15px;
     margin-top: 20px;
@@ -3575,27 +3160,31 @@ body {
   .maintienda .maintienda__tortas {
     align-self: start;
     justify-self: center;
-    grid-column: 1/9;
+    grid-column: 2/8;
     grid-row: 2/3;
     margin-top: 20px;
     margin-bottom: 30px;
     width: 100%;
     height: 48%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-left: 0px;
     text-align: center;
   }
   .maintienda .maintienda__tortas .maintienda__tortas1 {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 10px;
+  }
+  .maintienda .maintienda__tortas .maintienda__tortas1:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
   }
   .maintienda .maintienda__title--1 {
     align-self: start;
     grid-column: 1/5;
     grid-row: 3/4;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 600;
     margin-left: 15px;
     margin-top: 20px;
@@ -3605,29 +3194,43 @@ body {
     align-self: start;
     justify-self: center;
     grid-row: 4/5;
-    grid-column: 1/9;
+    grid-column: 2/8;
     margin-bottom: 20px;
     width: 100%;
     height: fit-content;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
   .maintienda .maintienda__dulzuras .maintienda__dulzuras1 {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 15px;
   }
+  .maintienda .maintienda__dulzuras .maintienda__dulzuras1:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
   .maintienda .maintienda__img {
-    width: 210px;
-    height: 160px;
+    width: 220px;
+    height: 170px;
     border-radius: 8px;
+    margin-right: 45px;
+    margin-left: 45px;
   }
   .maintienda .maintienda__descripcion {
     display: none;
+    font-weight: 500;
+    color: white;
+    font-style: normal;
+    font-weight: 300;
   }
   .maintienda .maintienda__precio {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
+    border: none;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
   }
 
   /* Finaliza Main */
@@ -3638,39 +3241,32 @@ body {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 100%;
-    height: 800px;
-    margin-top: 0;
+    height: 1220px;
   }
   .maincontacto .formsection {
     grid-column: 2/8;
     grid-row: 1/3;
-    margin: 50px 30px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    margin: 50px 10px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: fit-content;
   }
   .maincontacto .formsection .formsection__h1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    font-size: 40px;
-    background-color: transparent;
-    width: 100%;
-    text-align: center;
+    font-size: 45px;
     color: white;
     font-weight: 600;
     margin-top: 0;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
   }
   .maincontacto .formsection .form {
-    grid-column: 2/6;
-    grid-row: 2/3;
     margin: auto;
     padding: 30px;
     margin-top: 40px;
     align-items: center;
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.638);
@@ -3683,53 +3279,72 @@ body {
     justify-content: center;
   }
   .maincontacto .formsection .form .form__fieldset .form__input {
+    align-self: center;
+    width: 70%;
     border: none;
     border-radius: 4px;
-    padding: 7px 40px;
+    padding: 7px 6px;
     margin: 5px;
     background-color: #EBC0D4;
     color: white;
+  }
+  .maincontacto .formsection .form .form__fieldset .form__input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    font-size: 9px;
+    text-align: left;
   }
   .maincontacto .formsection .form .form__fieldset textarea {
     width: 93%;
   }
   .maincontacto .formsection .form .form__fieldset .form__button {
-    display: inline;
-    width: 93px;
-    text-align: center;
-    padding: 10px 25px;
+    align-self: center;
+    width: 60px;
+    padding: 4px 5px;
     border-radius: 4px;
     border: none;
     margin: 5px;
     background-color: #EBC0D4;
     color: white;
     font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+  }
+  .maincontacto .formsection .form .form__fieldset .form__button:hover {
+    border: white;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
   }
   .maincontacto .mediacontacto {
-    display: none;
     grid-column: 1/9;
-    grid-row: 5/6;
-    margin: 50px 30px;
-    height: 100px;
+    grid-row: 6/7;
+    margin: 0px 30px;
+    height: 50px;
   }
   .maincontacto .mediacontacto .mediacontacto__h2 {
     display: none;
   }
   .maincontacto .mediacontacto .medialistcontacto {
-    margin-top: 17px;
+    margin-top: 0;
     list-style: none;
     display: flex;
     justify-content: center;
   }
   .maincontacto .mediacontacto .medialistcontacto .medialistcontacto__li {
-    margin-right: 7px;
-    margin-left: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .maincontacto .mediacontacto .medialistcontacto .medialistcontacto__li a i {
     padding: 5px;
   }
+  .maincontacto .mediacontacto .medialistcontacto .medialistcontacto__li a i:hover {
+    transform: scale(1.6);
+    transition: 0.3s;
+  }
 
-  /* Finaliza Main */
+  /* Finaliza Main CONTACTO */
 }
 /* KEYFRAMES */
 /* ----------------------------------------------
