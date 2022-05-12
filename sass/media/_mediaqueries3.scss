@@ -53,13 +53,13 @@
         }
             
         .main__button{
+            background-color:  rgba(104, 83, 83, 0.352);
             margin: auto;
             display:inline;
             font-family: 'Montserrat', sans-serif;
-            border: 1px solid white;
+            border: 2px solid white;
             color: white;
-            background: none;
-            font-weight: 400;
+            font-weight: 600;
             text-decoration: underline;
             margin-top: 10px;
             width: 95px;
@@ -88,7 +88,7 @@
 
     .footer{
         margin-top: 35px;
-        height: 30px;
+        height: 50px;
         display: grid;
         grid-template-columns: repeat(8,1fr);
         .footer__derechos{
@@ -163,7 +163,7 @@
         .mainnosotros__contenedorh4{
             margin: 5px 15px;
             padding: 20px 10px;
-            background-color: rgba(255, 255, 255, 0.234);
+            background-color:  rgba(104, 83, 83, 0.352);
             border-radius: 10px;
             border: 1px solid white;
             grid-column: 1/9;
@@ -211,7 +211,7 @@
             flex-wrap: wrap;
             
             .mainnosotros__datos1{
-                background-color: rgba(255, 255, 255, 0.234);
+                background-color:  rgba(104, 83, 83, 0.352);
                 margin: 30px 20px;
                 width: 180px;
                 height: 180px;
@@ -246,7 +246,7 @@
     margin-left: 0px;
     margin-bottom: 20px;
     width: 100%;
-    height:1000px;
+    height:1050px;
     color: white;
     
     .sectionrecetas__title{
@@ -303,7 +303,7 @@
         margin-right: 0px;
         margin-bottom: 0;
         width: 100%;
-        height: 2200px;
+        height: 2250px;
         display: grid;
         grid-template-columns: repeat(8,1fr);
         grid-template-rows: repeat(8,1fr);
